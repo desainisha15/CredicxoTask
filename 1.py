@@ -15,7 +15,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # for holding the resultant list
 element_list = []*5
-data = pd.read_csv("C:/Users/hetan/Downloads/Amazon Scrapping.csv")
+data = pd.read_csv("C:/Users/hetan/Downloads/1.csv")
 Asin = data.loc[:,"Asin"]
 country = data.loc[4:20]
 for i in (Asin):
